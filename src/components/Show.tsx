@@ -32,7 +32,7 @@ const Show = ({ photos, show, id, setShow, setRemove }: showPicture) => {
               data-aos="fade-up"
               src={photos[id - 1].img}
               alt=""
-              className="h-[400px]"
+              className="w-[200px] md:h-[400px]"
               onClick={() => {
                 setShow(0);
               }}
