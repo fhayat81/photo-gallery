@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { FaFileUpload } from "react-icons/fa";
 
 interface ph {
