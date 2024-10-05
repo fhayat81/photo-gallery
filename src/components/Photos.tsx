@@ -31,6 +31,9 @@ const Photos = ({ photos, photoBoard, setShow, setId }: photoGalleryProps) => {
           ))}
         </div>
       )}
+      <div className="fixed bottom-0 right-0 p-4 text-white">
+        Total photos: {photos.length}
+      </div>
     </div>
   );
 };

@@ -46,7 +46,6 @@ function App() {
 
   return (
     <div className="bg-background h-screen w-screen overflow-y-scroll scrollbar-hide">
-      <Dashboard setPhotoBoard={setPhotoBoard} setUpload={setUpload} />
       <Photos
         photos={photos}
         photoBoard={photoBoard}
@@ -54,6 +53,8 @@ function App() {
         setId={setId}
         setShow={setShow}
       />
+      <Dashboard setPhotoBoard={setPhotoBoard} setUpload={setUpload} />
+      
       <Upload photos={photos} setPhotos={setPhotos} upload={upload} />
       <Show
         photos={photos}
