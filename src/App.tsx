@@ -61,6 +61,7 @@ function App() {
         show={show}
         setShow={setShow}
         id={id}
+        setId={setId}
         setRemove={setRemove}
       />
       <Delete
